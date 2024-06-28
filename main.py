@@ -12,6 +12,7 @@ def main():
         if(num1 > numbers[index]):
             break
         numbers.append(num1)
+        index += 1
 
     ########################################
     # Do not delete the return statement
