@@ -5,11 +5,18 @@ def main():
     Code Your Program here
     ########################################
     """
+    index = 0
+    numbers.append(int(input("enter a number: ")))
+    while(True):
+        num1 = (int(input("enter a number: ")))
+        if(num1 > numbers[index]):
+            break
+        numbers.append(num1)
 
     ########################################
     # Do not delete the return statement
     ########################################
-    print(*numbers)
+    print(numbers)
     return numbers
 
 
